@@ -1,29 +1,5 @@
 # wxjava
 
-package com.esb.common;
-
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.ConnectException;
-import java.net.URL;
-import java.security.cert.CertificateException;
-import java.security.cert.X509Certificate;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
-
-import org.apache.log4j.Logger;
-import org.springframework.util.StringUtils;
-
-
-
 public class WxUtil {
 	private static Logger log = Logger.getLogger(WxUtil.class);
 
